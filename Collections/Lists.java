@@ -13,8 +13,9 @@ public class Lists {
         //Other Actions
         int g = t.get(0); //Get an index in the list
         t.set (2,6); //Change number by their index
-        t.subList (1,4);
-        System.out.println(t.subList (1,4));
+        t.subList (1,4); //Get a portion of the list
+        System.out.println(t);
+        System.out.println(g);
     }
     
 }
