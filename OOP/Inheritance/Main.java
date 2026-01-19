@@ -15,7 +15,7 @@ public class Main{
         //For Sanpan Class
         Sanpan wife = new Sanpan(input.nextLine(), input.nextLine(), input.nextInt());
         wife.coupleStatement();
-        //2 perimeters?
+        //2 parameters?
         Sanpan wife2 = new Sanpan(input.nextLine(), input.nextLine());
         wife2.coupleStatement();
         
