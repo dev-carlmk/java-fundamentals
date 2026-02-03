@@ -40,6 +40,7 @@ public class OuterClass {
     
 
     // INNER CLASS IN A METHOD
+    // Inner Class inside a method (local inner class) Only usable inside the method
     public void inner2(){
         class InnerClass2{
             public void display1(){

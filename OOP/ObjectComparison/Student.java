@@ -1,4 +1,4 @@
-package OOP.OverloadingMethod_ObjectComparison;
+package OOP.ObjectComparison;
 public class Student implements Comparable<Student> {
     private String name; // Instance Variable
 

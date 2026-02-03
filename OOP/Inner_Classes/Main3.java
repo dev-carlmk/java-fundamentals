@@ -2,7 +2,7 @@ package OOP.Inner_Classes;
 public class Main3 {
     public static void main(String[] args) {
     
-    // Main Class can now see and use the private Inner Class via Outer Class   
+    // Main Class cannot see the private Inner Class, but can trigger it through OuterClass Methods  
     OuterClass out = new OuterClass();
     out.inner();
 
