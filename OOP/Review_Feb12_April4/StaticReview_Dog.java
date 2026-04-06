@@ -19,6 +19,7 @@ public class StaticReview_Dog{
         System.out.println("I am a static dog !");
     }
 
+    // Void Method --- returns nothing
     public void display2(){
         System.out.println("I am a dog !");
     }
