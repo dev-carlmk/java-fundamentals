@@ -7,7 +7,8 @@ public class InheritanceReview_Cat extends ClassReview_Dog{
         this.food = food;
     }
 
-     public void speak(){
+    @Override // Overwriting speak() method
+    public void speak(){
         System.out.println("My name is " + this.name + " and I am " + this.age + " years old. I was fed " + this.food + " packs of milk today.");
     }
 }
