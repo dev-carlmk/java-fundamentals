@@ -1,7 +1,8 @@
 package OOP.Review_Feb12_April4;
 public class StaticReview_Dog{
-   
-    protected static int count = 0; // Static Variable
+    
+    // Static Variable - variable that belongs to the class itself rather than to any specific instance (object) of that class
+    protected static int count = 0;
 
     protected String name;
     protected int age;
@@ -14,7 +15,7 @@ public class StaticReview_Dog{
         //StaticReview_Dog.display2(); ---- there's an error
     }
 
-    // Static Method
+    // Static Method - that belongs to the class itself rather than to any specific object (instance) of that class
     public static void display(){
         System.out.println("I am a static dog !");
     }
