@@ -1,3 +1,4 @@
+//Inheritance allows a subclass (child) to acquire the properties/behaviors of a superclass (parent)
 package OOP.Review_Feb12_April4;
 public class InheritanceReview_Cat extends ClassReview_Dog{
     protected int food;
