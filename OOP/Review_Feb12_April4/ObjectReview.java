@@ -1,6 +1,8 @@
 package OOP.Review_Feb12_April4;
 import java.util.Scanner;
 public class ObjectReview{
+    
+    // Object is an instance of a class that contains state (attributes) and behavior (methods).
     public static void main (String[] args){
         // Objects/Instances -- (sc)
         Scanner sc = new Scanner(System.in);
